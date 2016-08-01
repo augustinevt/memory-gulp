@@ -1,0 +1,51 @@
+#cardSet {
+  width: 80%;
+  height: 500px;
+
+}
+
+.card {
+  background-image: url('../img/reverse.png');
+  width: 150px;
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+
+.card:nth-child(6) {
+  clear: left;
+  margin-left: 500px;
+}
+.card:nth-child(1) {
+  clear: left;
+  margin-left: 500px;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.cardImage {
+  display: none;
+}
+
+.viewing .cardImage {
+  display: inline-block;
+}
+
+.matched .cardImage {
+  display: inline-block;
+}
+
+.matched {
+  border: 3px 3px pink;
+}
+
+.wrapper {
+
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
